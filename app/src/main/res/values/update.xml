@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="update_title">
+        <item>Update 0.1:\nROS Mobile中文版本</item>
+    </string-array>
+
+    <string-array name="update_descr">
+        <item>\u2022 中文界面适配及提供功能说明 </item>
+    </string-array>
+
+    <integer-array name="update_img">
+        <item>@drawable/update</item>
+    </integer-array>
+
+</resources>

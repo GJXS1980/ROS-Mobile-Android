@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="intro_title">
+        <item>HGROS</item>
+        <item>配置</item>
+        <item>自定义</item>
+        <item>监控</item>
+        <item>控制</item>
+        <item>SSH远程</item>
+    </string-array>
+
+    <string-array name="intro_descr">
+        <item>HGROS是一款控制ROS机器人的安卓APP.</item>
+        <item>支持为每一台机器人保存配置文件.</item>
+        <item>支持自定义话题.</item>
+        <item>可以实时监控机器人，比如通过二维栅格地图查看机器人的运动状态.</item>
+        <item>通过虚拟方向盘控制机器人运动.</item>
+        <item>支持SSH终端直接访问机器人.</item>
+    </string-array>
+
+    <integer-array name="intro_img">
+        <item>@drawable/intro_start</item>
+        <item>@drawable/intro_config</item>
+        <item>@drawable/intro_details</item>
+        <item>@drawable/intro_map</item>
+        <item>@drawable/intro_joystick</item>
+        <item>@drawable/intro_ssh</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="widget_names">
+        <item>Battery</item>
+        <item>Button</item>
+        <item>Camera</item>
+        <item>Debug</item>
+        <item>Gps</item>
+        <item>Joystick</item>
+        <item>Label</item>
+        <item>Logger</item>
+        <item>RqtPlot</item>
+        <item>Viz2D</item>
+    </string-array>
+
+    <string-array name="layer_names">
+        <item>GridMap</item>
+        <item>LaserScan</item>
+        <item>Path</item>
+        <item>Pose</item>
+        <item>TouchGoal</item>
+    </string-array>
+
+
+    <!--___________________________Layers____________________________-->
+
+    <!-- GridMap -->
+    <string name="GridMap_description">
+        显示消息类型为nav_msgs::OccupancyGrid的二维栅格地图
+    </string>
+
+    <!-- LaserScan -->
+    <string name="LaserScan_description">
+        显示消息类型为sensor_msgs::LaserScan的激光雷达数据
+    </string>
+
+    <!-- Path -->
+    <string name="Path_description">
+        显示消息类型为nav_msgs::Path的规划路径
+    </string>
+
+    <!-- Pose -->
+    <string name="Pose_description">
+        显示消息类型为geometry_msgs::PoseStamped的机器人当前位姿
+    </string>
+
+
+    <!-- TouchGoal -->
+    <string name="TouchGoal_description">
+        发布消息类型为 geometry_msgs::PoseStamped的目标点话题
+    </string>
+
+    <!--___________________________Widgets____________________________-->
+
+    <!-- Battery -->
+    <string name="Battery_description">
+        显示电池充电状态和电量
+    </string>
+
+    <!-- Button -->
+    <string name="Button_description">
+        发布按键话题，按下状态为 "True" 松开状态为 "False"
+    </string>
+
+    <string-array name="button_rotation">
+        <item>0°</item>
+        <item>90°</item>
+        <item>180°</item>
+        <item>270°</item>
+    </string-array>
+
+
+    <!-- Camera -->
+    <string name="Camera_description">
+        订阅消息类型为sensor_msgs/Image的图像话题
+    </string>
+
+    <!-- Debug -->
+    <string name="Debug_description">
+        打印所有的话题
+    </string>
+
+    <!-- GPS -->
+    <string name="Gps_description">订阅消息类型为sensor_msgs/NavSatFix的话题. 并显示激光雷达数据
+    </string>
+
+    <!-- Joystick -->
+    <string name="Joystick_description">
+        订阅消息类型为geometry_msgs/Twist的底盘控制话题
+    </string>
+
+    <string-array name="joystick_twist_dir">
+        <item>Linear</item>
+        <item>Angular</item>
+    </string-array>
+
+    <string-array name="joystick_twist_axis">
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+
+    <!-- Label -->
+    <string name="Label_description">
+        插入标签
+    </string>
+
+    <!-- Logger -->
+    <string name="Logger_description">
+        日志输出话题
+    </string>
+
+    <!-- RqtPlot -->
+    <string name="RqtPlot_description">
+        2D平面绘制图
+    </string>
+
+    <!-- Viz2D -->
+    <string name="Viz2D_description">
+        支持多图层2D显示界面
+    </string>
+
+</resources>

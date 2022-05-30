@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">HGROS</string>
+
+    <string name="add_widget">添加插件</string>
+    <string name="navigation_drawer_open">打开导航插件</string>
+    <string name="navigation_drawer_close">关闭导航插件</string>
+    <string name="add_widgets_to_your_configuration">添加窗口部件</string>
+    <string name="delete">删除</string>
+    <string name="widget_undo">%1$s removed from config!</string>
+    <string name="add_configuration">增加配置文件</string>
+
+    <!-- Master view -->
+    <string name="master_ip_hint">机器人IP</string>
+    <string name="master_port_hint">ROS Master 端口</string>
+    <string name="need_help_button">帮助</string>
+    <string name="connection_checklist_title">连接前检查: </string>
+    <string-array name="connection_checklist">
+        <item>WIFI是否正常连接?</item>
+        <item>输入的机器人IP和端口正确?</item>
+        <item>设备和机器人是否处于同一个局域网内?</item>
+        <item>在机器人.bashrc文件添加“export ROS_HOSTNAME=your_ip”，your_ip即机器人当前ip?</item>
+        <item>ROS Master是否启动?</item>
+        <item>是否有话题在发布?</item>
+    </string-array>
+
+    <!-- Buttons -->
+    <string name="button_connect">连接</string>
+    <string name="button_send">发送</string>
+    <string name="viz_options_open_content">显示rviz选项</string>
+
+    <!-- SSH Connection -->
+    <string name="ssh_connection">SSH 连接设置</string>
+    <string name="ssh_terminal">SSH 终端</string>
+    <string name="ip_address_hint">IP 地址</string>
+    <string name="port_hint">端口</string>
+    <string name="username_hint">用户名</string>
+    <string name="password_hint">密码</string>
+    <string name="terminal_hint">终端输入</string>
+
+    <!-- Default config -->
+    <string name="default_config_name">新的配置文件</string>
+    <string name="default_master_ip">3.106.35.75</string>
+    <string name="default_master_ticker_title">Default ticker title</string>
+    <string name="default_master_notification_title">Default title</string>
+
+    <!--Default SSH Settings -->
+    <string name="default_ip_address">3.106.35.75</string>
+    <string name="default_port">22</string>
+    <string name="default_username">HGROS</string>
+    <string name="default_password">HGrobot</string>
+
+    <!-- Preference key -->
+    <string name="preference_file_key">当前配置</string>
+    <string name="new_config_name">新配置文件名</string>
+    <string name="ok">是</string>
+    <string name="button_disconnect">断开连接</string>
+    <string name="really_delete">是否要永久删除当前配置?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="rename_config">重命名配置文件</string>
+    <string name="rename_widget">重命名插件</string>
+    <string name="no_config">不存在配置文件</string>
+
+    <!-- Details -->
+    <string name="widget_list_type">(%s)</string>
+    <string name="connected">连接成功</string>
+    <string name="disconnected">断开</string>
+    <string name="pending">正在连接</string>
+
+    <!-- SSH Autocompletion -->
+    <string-array name="ssh_autocmpletion">
+        <item>rostopic list </item>
+        <item>rostopic echo </item>
+        <item>rostopic info </item>
+        <item>rostopic hz </item>
+        <item>rosnode info </item>
+        <item>rosnode list </item>
+        <item>roslaunch </item>
+        <item>roscore</item>
+    </string-array>
+
+</resources>
